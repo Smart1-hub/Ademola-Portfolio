@@ -22,6 +22,7 @@
     display: flex;
     gap: 5px;
   }
+  
   .top-icons,
   p {
     color: #fff;
@@ -33,6 +34,7 @@
     margin-left: 20px;
     margin-right: 40px;
   }
+
   .btm-toolbar h2,
   i {
     color: #fff;
@@ -42,19 +44,25 @@
     text-align: center;
     margin-top: 35px;
   }
+
   .section-head h1 {
+  
     font-size: 45px;
     color: #5146e6;
   }
+
   .section-head h3 {
+    
     font-size: 35px;
     color: #edecff;
     padding-top: 20px;
   }
+
  .head-text {
     margin-top: 2rem;
     margin-bottom: 2rem;
   }
+
   .head-text p {
     font-size: 25px;
     color: #c8c8d4;
@@ -72,7 +80,7 @@
     padding-right: 4rem;
     padding-top: 2.5rem;
   }
-  
+
   .lang-framework div {
     line-height: 2.5rem;
   }
