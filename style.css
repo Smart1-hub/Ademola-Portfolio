@@ -29,11 +29,12 @@
 
   .btm-toolbar {
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
     margin-left: 20px;
     margin-right: 40px;
   }
-  .btm-toolbar h2, i {
+  .btm-toolbar h2,
+  i {
     color: #fff;
   }
 
@@ -50,7 +51,7 @@
     color: #edecff;
     padding-top: 20px;
   }
-  .head-text {
+ .head-text {
     margin-top: 2rem;
     margin-bottom: 2rem;
   }
@@ -71,13 +72,16 @@
     padding-right: 4rem;
     padding-top: 2.5rem;
   }
+  
   .lang-framework div {
     line-height: 2.5rem;
   }
+  
   .lang-col {
     color: #9490ff;
     font-size: 12px;
   }
+
   .skills {
     margin-top: 1.6rem;
     margin-bottom: 1.8rem;
