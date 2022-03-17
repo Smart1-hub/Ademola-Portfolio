@@ -5,7 +5,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Lato', 'sans-serif';
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 @media (max-width: 500px) {
@@ -50,7 +50,6 @@
     color: #edecff;
     padding-top: 20px;
   }
- 
   .head-text {
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -64,6 +63,7 @@
     width: 85%;
     height: 1px;
   }
+
   .lang-framework {
     display: flex;
     justify-content: space-between;
@@ -84,12 +84,14 @@
     padding-left: 2rem;
     line-height: 2.5rem;
   }
+
   .social {
     display: flex;
     justify-content: center;
     gap: 20px;
     margin-top: 3rem;
   }
+
   .dn-page {
     display: flex;
     justify-content: center;
