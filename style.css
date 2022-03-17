@@ -58,16 +58,15 @@
 
   .head-text {
     margin-top: 2rem;
-  margin-bottom: 2rem;
+    margin-bottom: 2rem;
   }
 
   .head-text p {
     font-size: 25px;
     color: #c8c8d4;
   }
-  
+
   .head-text hr {
-  
     border: 0;
     width: 85%;
     height: 1px;
@@ -85,7 +84,7 @@
     line-height: 2.5rem;
   }
 
- .lang-col {
+  .lang-col {
     color: #9490ff;
     font-size: 12px;
   }
