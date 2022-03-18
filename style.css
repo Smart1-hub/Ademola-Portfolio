@@ -31,14 +31,12 @@
 
   .section-head h1 {
     font-size: 45px;
-    font-weight: 600, bold;
     font-style: normal;
     color: #9490ff;
   }
 
   .section-head h3 {
     font-size: 35px;
-    font-weight: 400, medium;
     color: #edecff;
     padding-top: 20px;
   }
@@ -50,7 +48,6 @@
 
   .head-text p {
     font-size: 20px;
-    font-weight: 300, regular;
     line-height: 28px;
     color: #c8c8d4;
     margin-top: 4rem;
