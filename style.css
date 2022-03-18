@@ -1,59 +1,56 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
 * {
   background: #1b115e;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: 'Roboto';
+  list-style-type: none;
+  text-decoration: none;
 }
 
 @media (max-width: 500px) {
   .top-toolbar {
     display: flex;
     justify-content: space-between;
-    margin-top: 15px;
-    margin-bottom: 20px;
+    margin-top: 25px;
     margin-left: 25px;
-    margin-right: 20px;
-  }
-
-  .top-icons {
-    display: flex;
-    gap: 5px;
-  }
-
-  .top-icons,
-  p {
-    color: #fff;
-  }
-
-  .btm-toolbar {
-    display: flex;
-    justify-content: space-between;
-    margin-left: 20px;
     margin-right: 40px;
   }
 
-  .btm-toolbar h2,
+  .top-toolbar h2,
   i {
     color: #fff;
   }
-
+  
   .section-head {
     text-align: center;
-    margin-top: 35px;
+    margin-top: 60px;
   }
 
   .section-head h1 {
     font-size: 45px;
-    color: #5146e6;
+    font-weight: 700, bold;
+    font-style: normal;
+    color: #9490ff;
   }
 
   .section-head h3 {
     font-size: 35px;
+    font-weight: 500, Medium;
     color: #edecff;
     padding-top: 20px;
+  }
+
+  .img {
+    display: flex;
+  }
+
+  .img img {
+    width: 180px;
+    height: 160px;
+    margin-left: -80px;
   }
 
   .head-text {
@@ -62,14 +59,18 @@
   }
 
   .head-text p {
-    font-size: 25px;
+    font-size: 20px;
+    font-weight: 400, Regular;
+    line-height: 28px;
     color: #c8c8d4;
+    margin-top: 4rem;
   }
 
   .head-text hr {
     border: 0;
     width: 85%;
-    height: 1px;
+    height: 0.5px;
+    color: #ccc;
   }
 
   .lang-framework {
@@ -80,13 +81,25 @@
     padding-top: 2.5rem;
   }
 
-  .lang-framework div {
+  .lang-col {
+    color: #9490ff;
+    font-size: 13px;
     line-height: 2.5rem;
   }
 
-  .lang-col {
-    color: #9490ff;
-    font-size: 12px;
+  .lang-framework {
+    line-height: 2.5rem;
+  }
+
+  .lang-framework ul li {
+    color: #fff;
+    font-size: 16px;
+  }
+
+  .side-2 {
+    background-image: url('circle 2 header@2x.png');
+    background-repeat: no-repeat;
+    background-position: top left -106px; 
   }
 
   .skills {
@@ -95,12 +108,18 @@
     padding-left: 2rem;
     line-height: 2.5rem;
   }
-
+  .skills ul {
+    color: #fff;
+    font-size: 16px;
+  }
   .social {
+    margin-left: 5rem;
+    align-items: center;
+    padding: 5rem 1.5rem 0.6rem 1.5rem;
+  }
+  .social ul {
     display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin-top: 3rem;
+    gap: 0.8rem;
   }
 
   .dn-page {
