@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
 * {
   background: #1b115e;
@@ -22,7 +21,6 @@
 
   .top-toolbar h2,
   i {
-    
     color: #fff;
   }
 
@@ -32,7 +30,6 @@
   }
 
   .section-head h1 {
-    
     font-size: 45px;
     font-weight: 600, bold;
     font-style: normal;
@@ -40,16 +37,10 @@
   }
 
   .section-head h3 {
-    
     font-size: 35px;
     font-weight: 400, medium;
     color: #edecff;
     padding-top: 20px;
-  }
-  .img {
-    width: 160px;
-    height: 160px;
-    margin-left: -80px;
   }
 
   .head-text {
@@ -78,6 +69,7 @@
     padding-left: 2rem;
     padding-right: 4rem;
     padding-top: 2.5rem;
+    line-height: 2.5rem;
   }
 
   .lang-col {
@@ -86,19 +78,9 @@
     line-height: 2.5rem;
   }
 
-  .lang-framework {
-    line-height: 2.5rem;
-  }
-
   .lang-framework ul li {
     color: #fff;
     font-size: 16px;
-  }
-
-  .side-2 {
-    background-image: url('circle 2 header@2x.png');
-    background-repeat: no-repeat;
-    background-position: top left -106px; 
   }
 
   .skills {
@@ -107,6 +89,7 @@
     padding-left: 2rem;
     line-height: 2.5rem;
   }
+
   .skills ul {
     color: #fff;
     font-size: 16px;
@@ -115,14 +98,14 @@
   .social {
     margin-left: 5rem;
     align-items: center;
-    padding: 5rem 1.5rem 0.6rem 1.5rem;
+    padding: 5rem 2rem 0.6rem 2rem;
   }
 
   .social ul {
     display: flex;
     gap: 0.8rem;
   }
-  
+
   .dn-page {
     display: flex;
     justify-content: center;
