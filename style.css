@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
 * {
   background: #1b115e;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Roboto';
   list-style-type: none;
   text-decoration: none;
 }
@@ -21,34 +21,32 @@
 
   .top-toolbar h2,
   i {
+    font-family: 'Roboto';
     color: #fff;
   }
-  
+
   .section-head {
     text-align: center;
     margin-top: 60px;
   }
 
   .section-head h1 {
+    font-family: 'Roboto';
     font-size: 45px;
-    font-weight: 700, bold;
+    font-weight: 600, bold;
     font-style: normal;
     color: #9490ff;
   }
 
   .section-head h3 {
+    font-family: 'Roboto';
     font-size: 35px;
-    font-weight: 500, Medium;
+    font-weight: 400, medium;
     color: #edecff;
     padding-top: 20px;
   }
-
   .img {
-    display: flex;
-  }
-
-  .img img {
-    width: 180px;
+    width: 160px;
     height: 160px;
     margin-left: -80px;
   }
@@ -59,8 +57,9 @@
   }
 
   .head-text p {
+    font-family: 'Roboto';
     font-size: 20px;
-    font-weight: 400, Regular;
+    font-weight: 300, regular;
     line-height: 28px;
     color: #c8c8d4;
     margin-top: 4rem;
@@ -83,6 +82,7 @@
 
   .lang-col {
     color: #9490ff;
+    font-family: 'Roboto';
     font-size: 13px;
     line-height: 2.5rem;
   }
@@ -94,6 +94,7 @@
   .lang-framework ul li {
     color: #fff;
     font-size: 16px;
+    font-family: 'Roboto';
   }
 
   .side-2 {
@@ -111,21 +112,25 @@
   .skills ul {
     color: #fff;
     font-size: 16px;
+    font-family: 'Roboto';
   }
+
   .social {
     margin-left: 5rem;
     align-items: center;
     padding: 5rem 1.5rem 0.6rem 1.5rem;
   }
+
   .social ul {
     display: flex;
     gap: 0.8rem;
   }
-
+  
   .dn-page {
     display: flex;
     justify-content: center;
     gap: 1rem;
     margin-top: 2rem;
+    font-family: 'Roboto';
   }
 }
