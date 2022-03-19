@@ -5,7 +5,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Roboto', 'Lora', 'Rokkit';
+  font-family: 'Roboto', 'Lora', 'Rokkit' 'Roboto blend';
   list-style-type: none;
   text-decoration: none;
 }
@@ -112,11 +112,12 @@
     gap: 1rem;
     margin-top: 2rem;
   }
+
   /* Work-section */
   .work-grid {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(8, auto); 
+    grid-template-rows: repeat(8, auto);
   }
 
   .recent h3 {
