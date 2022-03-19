@@ -23,7 +23,7 @@
     width: 85%;
     height: 1px;
     color: #ccc;
-   }
+  }
 
   .recent-work h1 {
     color: #9490ff;
@@ -90,16 +90,16 @@
     padding: 2rem 2rem 0.6rem 2rem;
   }
 
-  .top-social p {
-    margin-top: 2px;
-  }
-
   p {
     color: #fff;
     font-size: 22px;
     align-items: center;
     margin-top: 3rem;
     text-align: center;
+  }
+
+  .top-social p {
+    margin-top: 2px;
   }
 
   ul {
