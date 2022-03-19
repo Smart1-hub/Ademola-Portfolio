@@ -30,9 +30,8 @@
     font-size: 36px;
     line-height: 48px;
     margin-left: 1.8rem;
-    margin-bottom: 1.8rem; 
+    margin-bottom: 1.8rem;
   }
-
   .box input {
     width: 327px;
     height: 236px;
@@ -146,7 +145,6 @@
   .story img {
     width: 279px;
     height: 181px;
-    margin-top: 2rem;
     display: block;
     margin-top: 2rem;
     margin-left: 3rem;
@@ -179,6 +177,5 @@
 
   .reach-out {
     margin-top: 5rem;
-
   }
 }
