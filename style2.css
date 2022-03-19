@@ -22,8 +22,8 @@
     border: 0;
     width: 85%;
     height: 1px;
-    color: #ccc;  
-  }
+    color: #ccc;
+   }
 
   .recent-work h1 {
     color: #9490ff;
@@ -32,6 +32,7 @@
     margin-left: 1.8rem;
     margin-bottom: 1.8rem;
   }
+
   .box input {
     width: 327px;
     height: 236px;
@@ -58,7 +59,7 @@
     margin-left: 1.8rem;
   }
 
-  .advert h2 {
+  h2 .advert {
     font-size: 32px;
     color: #9490ff;
     margin-top: 6rem;
