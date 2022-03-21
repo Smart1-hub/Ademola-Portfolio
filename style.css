@@ -29,6 +29,14 @@
     margin-top: 60px;
   }
 
+  .title-bkg div {
+    background-color: #7d73fc;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-size: 150px 300px;
+    background-position: left top;
+  }
+
   .section-head h1 {
     font-size: 48px;
     line-height: 72px;
@@ -57,7 +65,7 @@
 
   .head-text hr {
     border: 0;
-    width: 85%;
+    width: 75%;
     height: 0.5px;
     color: #ccc;
   }
@@ -170,7 +178,7 @@
     display: inline-block;
     background: none;
     border-right: 1px solid #ccc;
-    padding: 0.5rem 1.8rem;
+    padding: 0.3rem 1.5rem;
   }
 
   .btn-1 {
