@@ -31,12 +31,26 @@
 
   .section-head h1 {
     font-size: 45px;
+  }
+  .title-bkg {
+    background-color: #7d73fc;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-size: 150px 300px;
+    background-position: left top;
+  }
+
+  .section-head h1 {
+    font-size: 48px;
+    line-height: 72px;
     font-style: normal;
     color: #9490ff;
   }
 
   .section-head h3 {
     font-size: 35px;
+    font-size: 32px;
+    line-height: 44px;
     color: #edecff;
     padding-top: 20px;
   }
@@ -101,6 +115,7 @@
   .social ul {
     display: flex;
     gap: 0.8rem;
+    margin-bottom: 4rem;
   }
 
   .dn-page {
@@ -108,5 +123,93 @@
     justify-content: center;
     gap: 1rem;
     margin-top: 2rem;
+  }
+
+  /* Work-section */
+  .work-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, auto);
+  }
+
+  .recent h3 {
+    font-size: 40px;
+    line-height: 52px;
+    color: #9490ff;
+    margin-top: 6rem;
+    margin-bottom: 1.8rem;
+    padding-left: 1.8rem;
+  }
+
+  .box input {
+    width: 327px;
+    height: 236px;
+    border: none;
+    outline: none;
+    background: #fff;
+    margin-top: 4rem;
+    margin-left: 1.8rem;
+    margin-right: 3rem;
+    margin-bottom: 4rem;
+  }
+
+  .story-title h2 {
+    font-size: 32px;
+    line-height: 44px;
+    color: #fff;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    padding-left: 1.8rem;
+  }
+
+  .story-title p {
+    font-size: 20px;
+    line-height: 28px;
+    color: #fff;
+    margin-bottom: 3rem;
+    padding-left: 1.8rem;
+  }
+
+  .story-title ul {
+    display: flex;
+    font-size: 15px;
+    color: #fff;
+    gap: 15px;
+    justify-content: center;
+  }
+
+  .story-title ul li {
+    display: inline-block;
+    background: none;
+    border-right: 1px solid #ccc;
+    padding: 0.3rem 1.5rem;
+  }
+
+  .story-title ul li #ruby {
+    display: inline-block;
+    background: none;
+    padding: 0.3rem 1.5rem;
+  }
+  
+  .btn-1 {
+    display: inline-block;
+    background: #9490ff;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    padding: 1.1rem;
+    margin: 1.8rem;
+  }
+
+  .btn-1 :enabled {
+    color: #7d73fc;
+  }
+
+  .btn-1 :hover {
+    color: #7d73fc;
+  }
+
+  .btn-1 :disabled {
+    color: #2a2b33;
   }
 }
