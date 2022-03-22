@@ -29,7 +29,7 @@
     margin-top: 60px;
   }
 
-  .title-bkg div {
+  .title-bkg {
     background-color: #7d73fc;
     background-repeat: no-repeat;
     background-origin: border-box;
@@ -179,6 +179,12 @@
     background: none;
     border-right: 1px solid #ccc;
     padding: 0.3rem 1.5rem;
+  }
+
+  .story-title ul li #ruby  {
+    display: inline-block;
+    background: none;
+    padding: 0.3rem 1.5rem;  
   }
 
   .btn-1 {
