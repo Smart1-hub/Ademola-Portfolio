@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* {
+  background: #1b115e;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+@media (max-width: 500px) {
+  .work {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(9, auto);
+    align-items: center;
+  }
+
+  .recent-workhr {
+    border: 0;
+    width: 85%;
+    height: 1px;
+    color: #ccc;
+  }
+
+  .recent-work h1 {
+    color: #9490ff;
+    font-size: 36px;
+    line-height: 48px;
+    margin-left: 1.8rem;
+    margin-bottom: 1.8rem;
+  }
+
+  .box input {
+    width: 327px;
+    height: 236px;
+    border: none;
+    outline: none;
+    background: #fff;
+    margin-top: 4rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 4rem;
+  }
+
+  .mtp-btn button {
+    margin-left: 1.5rem;
+  }
+
+  .contact input {
+    width: 327px;
+    height: 48px;
+    border: none;
+    outline: none;
+    background: #fff;
+    margin: 0.8rem;
+    margin-left: 1.8rem;
+  }
+
+  h2 .advert {
+    font-size: 32px;
+    color: #9490ff;
+    margin-top: 6rem;
+  }
+
+  .last-contact input {
+    width: 327px;
+    height: 148px;
+    border: none;
+    outline: none;
+    background: #fff;
+    margin: 0.8rem;
+    margin-left: 1.8rem;
+  }
+
+  h2 {
+    color: #fff;
+    font-size: 32px;
+    line-height: 28px;
+    margin-left: 1.8rem;
+  }
+
+  .social-icon {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: #fff;
+    padding: 2rem 2rem 0.6rem 2rem;
+  }
+
+  p {
+    color: #fff;
+    font-size: 22px;
+    align-items: center;
+    margin-top: 3rem;
+    text-align: center;
+  }
+
+  .top-social p {
+    margin-top: 2px;
+  }
+
+  ul {
+    display: flex;
+    gap: 20px;
+    color: #fff;
+    font-size: 12px;
+    margin: 1.2rem;
+    margin-left: 4.8rem;
+  }
+
+  ul li {
+    background: inherit;
+    padding: 0.3rem;
+    margin: 1px 1px 1px 1px;
+  }
+
+  .contact-btn {
+    display: inline-block;
+    padding: 16px 8px;
+    cursor: pointer;
+    background-color: #9490ff;
+    color: #fff;
+    border: none;
+    margin-left: 9rem;
+    margin-top: 1.2rem;
+    margin-bottom: 0.1rem;
+  }
+
+  .contact-wrapper hr {
+    margin-top: 5rem;
+  }
+
+  .story {
+    margin-top: 6rem;
+  }
+
+  .story h3 {
+    font-size: 25px;
+    color: #ccc;
+    margin-left: 1.8rem;
+  }
+
+  .story img {
+    width: 279px;
+    height: 181px;
+    display: block;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    margin-right: 2.8rem;
+    margin-bottom: 1px;
+  }
+
+  .story-img {
+    padding: 2px;
+  }
+
+  .story p {
+    font-size: 20px;
+    margin-top: 1.8rem;
+    line-height: 22px;
+  }
+
+  .contact {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    margin-left: 1.8rem;
+    margin-right: 1.8rem;
+    margin-top: 3rem;
+  }
+
+  .contact a {
+    color: #fff;
+  }
+
+  .reach-out {
+    margin-top: 5rem;
+  }
+}

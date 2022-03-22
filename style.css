@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* {
+  background: #1b115e;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+@media (max-width: 500px) {
+  .top-toolbar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 40px;
+  }
+
+  .top-toolbar h2,
+  i {
+    color: #fff;
+  }
+
+  .section-head {
+    text-align: center;
+    margin-top: 60px;
+  }
+
+  .title-bkg {
+    background-color: #7d73fc;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-size: 150px 300px;
+    background-position: left top;
+  }
+
+  .section-head h1 {
+    font-size: 48px;
+    line-height: 72px;
+    font-style: normal;
+    color: #9490ff;
+  }
+
+  .section-head h3 {
+    font-size: 32px;
+    line-height: 44px;
+    color: #edecff;
+    padding-top: 20px;
+  }
+
+  .head-text {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .head-text p {
+    font-size: 20px;
+    line-height: 28px;
+    color: #c8c8d4;
+    margin-top: 4rem;
+  }
+
+  .head-text hr {
+    border: 0;
+    width: 75%;
+    height: 0.5px;
+    color: #ccc;
+  }
+
+  .lang-framework {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 4rem;
+    padding-top: 2.5rem;
+    line-height: 2.5rem;
+  }
+
+  .lang-col {
+    color: #9490ff;
+    font-size: 13px;
+    line-height: 2.5rem;
+  }
+
+  .lang-framework ul li {
+    color: #fff;
+    font-size: 16px;
+  }
+
+  .skills {
+    margin-top: 1.6rem;
+    margin-bottom: 1.8rem;
+    padding-left: 2rem;
+    line-height: 2.5rem;
+  }
+
+  .skills ul {
+    color: #fff;
+    font-size: 16px;
+  }
+
+  .social {
+    margin-left: 5rem;
+    align-items: center;
+    padding: 5rem 2rem 0.6rem 2rem;
+  }
+
+  .social ul {
+    display: flex;
+    gap: 0.8rem;
+    margin-bottom: 4rem;
+  }
+
+  .dn-page {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+
+  /* Work-section */
+  .work-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, auto);
+  }
+
+  .recent h3 {
+    font-size: 40px;
+    line-height: 52px;
+    color: #9490ff;
+    margin-top: 6rem;
+    margin-bottom: 1.8rem;
+    padding-left: 1.8rem;
+  }
+
+  .box input {
+    width: 327px;
+    height: 236px;
+    border: none;
+    outline: none;
+    background: #fff;
+    margin-top: 4rem;
+    margin-left: 1.8rem;
+    margin-right: 3rem;
+    margin-bottom: 4rem;
+  }
+
+  .story-title h2 {
+    font-size: 32px;
+    line-height: 44px;
+    color: #fff;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    padding-left: 1.8rem;
+  }
+
+  .story-title p {
+    font-size: 20px;
+    line-height: 28px;
+    color: #fff;
+    margin-bottom: 3rem;
+    padding-left: 1.8rem;
+  }
+
+  .story-title ul {
+    display: flex;
+    font-size: 15px;
+    color: #fff;
+    gap: 15px;
+    justify-content: center;
+  }
+
+  .story-title ul li {
+    display: inline-block;
+    background: none;
+    border-right: 1px solid #ccc;
+    padding: 0.3rem 1.5rem;
+  }
+
+  .story-title ul li #ruby {
+    display: inline-block;
+    background: none;
+    padding: 0.3rem 1.5rem;
+  }
+
+  .btn-1 {
+    display: inline-block;
+    background: #9490ff;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    padding: 1.1rem;
+    margin: 1.8rem;
+  }
+
+  .btn-1 :enabled {
+    color: #7d73fc;
+  }
+
+  .btn-1 :hover {
+    color: #7d73fc;
+  }
+
+  .btn-1 :disabled {
+    color: #2a2b33;
+  }
+}
