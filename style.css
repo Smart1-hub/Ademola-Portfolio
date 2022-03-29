@@ -100,6 +100,10 @@
     line-height: 2.5rem;
   }
 
+  input li {
+    height: 48px;
+  }
+
   form li + li,
   textarea {
     margin-top: 1em;
@@ -165,16 +169,11 @@
 
   input,
   textarea {
-    font-family: 1em inherit;
     color: #646369;
     width: 327px;
     box-sizing: border-box;
     background-color: #fff;
     border: none;
-  }
-
-  input li {
-    height: 48px;
   }
 
   .box {
@@ -297,10 +296,6 @@
   ul li .nav-links {
     color: #fff;
     font-size: 15px;
-  }
-
-  .nav-links i {
-    size: 1px;
   }
 
   .top-toolbar {
@@ -449,7 +444,7 @@
     background-color: #1b115e;
   }
 
-  .box input[type="text-1"] {
+  .box input[type="text"] {
     width: 620px;
     height: 448px;
     border: none;
@@ -534,19 +529,6 @@
     background-size: 57.53px 700.92px;
     background-position: right;
     background-color: #1b115e;
-  }
-
-  .box input[type="text-2"] {
-    width: 620px;
-    height: 448px;
-    border: none;
-    outline: none;
-    background: #fff;
-    margin-top: 4rem;
-    margin-left: 4rem;
-    margin-right: 3rem;
-    margin-bottom: 4rem;
-    position: static;
   }
 
   .sub-flex-2 {
