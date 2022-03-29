@@ -32,6 +32,7 @@
   .headline {
     width: auto;
   }
+
   .section-head {
     text-align: center;
     margin-top: 60px;
@@ -70,11 +71,18 @@
     margin-bottom: 4rem;
   }
 
-  .head-text hr {
+  hr {
     width: 75%;
-    height: 0px;
+    height: 0;
     border: 1px solid #646369;
-    margin: auto
+    margin: auto;
+  }
+
+  hr .head-text {
+    width: 75%;
+    height: 0;
+    border: 1px solid #646369;
+    margin: auto;
   }
 
   .lang-framework {
@@ -90,6 +98,11 @@
     color: #9490ff;
     font-size: 13px;
     line-height: 2.5rem;
+  }
+
+  form li + li,
+  textarea {
+    margin-top: 1em;
   }
 
   .lang-framework ul li {
@@ -108,13 +121,6 @@
     color: #fff;
     font-size: 16px;
   }
-
-  hr {
-    width: 75%;
-    height: 0px;
-    border: 1px solid #646369;
-    margin: auto;
-  } 
 
   .social {
     margin-left: 5rem;
@@ -157,7 +163,21 @@
     padding-left: 1.8rem;
   }
 
-  .box input {
+  input,
+  textarea {
+    font-family: 1em inherit;
+    color: #646369;
+    width: 327px;
+    box-sizing: border-box;
+    background-color: #fff;
+    border: none;
+  }
+
+  input li {
+    height: 48px;
+  }
+
+  .box {
     width: 327px;
     height: 236px;
     border: none;
@@ -246,27 +266,9 @@
     width: 500px;
     padding: 1em;
   }
-
-  form li + li, textarea {
-    margin-top: 1em;
-  }
-
-  input, textarea {
-    font-family: 1em Roboto;
-    color: #646369;
-    width: 327px;
-    box-sizing: border-box;
-    background-color: #fff;
-    border: none;
-  }
-
-  li input {
-   height: 48px;
-  }
 }
 
 @media (min-width: 768px) {
-
   .upper-toolbar {
     display: flex;
     justify-content: space-between;
@@ -278,8 +280,9 @@
   }
 
   .upper-toolbar h2 {
-    font-size: 18px;  
+    font-size: 18px;
   }
+
   .nav-links {
     display: flex;
     gap: 20px;
@@ -291,7 +294,7 @@
     gap: 20px;
   }
 
-  .nav-links ul li {
+  ul li .nav-links {
     color: #fff;
     font-size: 15px;
   }
@@ -299,8 +302,9 @@
   .nav-links i {
     size: 1px;
   }
+
   .top-toolbar {
-    display: none;    
+    display: none;
   }
 
   .top-toolbar h2,
@@ -322,7 +326,6 @@
     background-position: left top;
     background-origin: border-box;
     background-color: #1b115e;
-    
   }
 
   .title-bkg h1 {
@@ -350,11 +353,18 @@
     margin-bottom: 3rem;
   }
 
-  .head-text hr {
+  hr {
     width: 30%;
-    height: 0px;
+    height: 0;
     border: 1px solid #646369;
-    margin: auto
+    margin: auto;
+  }
+
+  hr .head-text {
+    width: 30%;
+    height: 0;
+    border: 1px solid #646369;
+    margin: auto;
   }
 
   .total-skills {
@@ -381,17 +391,11 @@
     line-height: 2.5rem;
   }
 
-  .lang-framework, ul li {
+  .lang-framework,
+  ul li {
     color: #fff;
     font-size: 14.19px;
     line-height: 2.5rem;
-  }
-
-  hr {
-    width: 30%;
-    height: 0px;
-    border: 1px solid #646369;
-    margin: auto;
   }
 
   .soc-flex {
@@ -432,7 +436,7 @@
 
   .recent hr {
     width: 75%;
-    height: 0px;
+    height: 0;
     border: 1px solid #646369;
     margin: auto;
   }
@@ -485,6 +489,7 @@
     color: #dfe1e6;
     position: static;
   }
+
   .story-title ul {
     display: flex;
     font-size: 15px;
@@ -528,7 +533,7 @@
     background-repeat: no-repeat;
     background-size: 57.53px 700.92px;
     background-position: right;
-    background-color: #1b115e;  
+    background-color: #1b115e;
   }
 
   .box input[type="text-2"] {
