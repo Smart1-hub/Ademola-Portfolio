@@ -210,14 +210,25 @@
               <h2 class="text-align">CONTACT US</h2>
               <p class="text-align">If you have an application you are<br> interested in developing, a feature that you<br> need
                 built or a project that needs coding.<br> I’d love to help with it</p>
-                <form class="text-align" action="/Ademola-Portfolio" method="post">
+                <form class="text-align" action="https://formspree.io/f/{form_id}" method="post">
                   <ul>
-                    <li><input type="text" id="text_input" name="text_input" placeholder="Text input"></li>
-                    <li><input type="text" id="email" name="email" placeholder="scdk@yahoo.com"></li>
+                    <li><input type="text" id="text_input" name="text_input" maxlength="30" placeholder="Text input" required></li>
+                    <li><input type="Email" id="email" name="email" placeholder="scdk@yahoo.com" required></li>
                   </ul>
-                  <textarea name="user_message" id="msg" cols="30" rows="10">Enter text here</textarea>
+                  <textarea name="user_message" id="msg" cols="30" rows="10" maxlength="500" required>Enter text here</textarea>
+                  <button class="ctn-btn">See Project</button>
                 </form>
             </div>
+            <footer>
+              <hr>
+              <div class="btm-icon">
+                <i class="fab fa-github fa-2x"></i>
+                <i class="fab fa-facebook fa-2x"></i>
+                <i class="fab fa-instagram fa-2x"></i>
+                <i class="fab fa-twitter fa-2x"></i>
+              </div>
+              <p class="text-align">emailhere@email.com</p>
+            </footer>
     </div>
   </section>
 </body>
